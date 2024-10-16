@@ -1,0 +1,71 @@
+/* Estilos básicos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Imagenes de gran tamaño */
+img {
+    margin: 20px 0;
+    max-width: 80%; /* Ajusta el tamaño de la imagen al ancho de la pantalla */
+    height: auto;
+}
+
+/* Tabla de valores */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Sección de sensores */
+.sensor-section h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+/* Estilos para las imágenes de los sensores */
+.sensor-section img {
+    width: 150px; /* Ajusta el tamaño de las imágenes de los sensores */
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 10px auto;
+    width: 80%;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
